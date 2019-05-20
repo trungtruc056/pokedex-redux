@@ -1,0 +1,23 @@
+.pokemon-box {
+  margin-bottom: 30px;
+
+  .card-body {
+    text-align: center;
+    margin: 0 auto;
+
+    .card-title {
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .btn-view {
+      a {
+        color: #fff;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
